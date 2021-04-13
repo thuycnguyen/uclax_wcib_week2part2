@@ -1,5 +1,50 @@
 body {
-  background: url("/images/background.jpg");
-  font-family: sans-serif; }
+  background-image: url("../images/background.jpg");
+  background-attachment: fixed;
+  font-family: Helvetica, sans-serif; }
+  body h2 {
+    color: darkblue;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center; }
+  body iframe {
+    border: 0;
+    margin-left: 50vw;
+    transform: translate(-50%); }
+  body h3 {
+    color: darkblue;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center; }
+  body .box {
+    width: 560px;
+    margin-left: 50vw;
+    transform: translate(-50%); }
+  body p {
+    font-size: 30px;
+    text-align: center; }
+  body h4 {
+    color: darkblue;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center; }
+  body ol {
+    font-size: 28px;
+    list-style-position: inside;
+    padding-left: 625px; }
+  body footer {
+    font-size: 20px;
+    text-align: center; }
+    body footer a:link {
+      color: blue;
+      font-weight: bold; }
+    body footer a:visited {
+      color: purple;
+      font-weight: bold; }
+    body footer a:hover {
+      text-decoration: none; }
   body img {
     width: 100%; }
